@@ -2,11 +2,16 @@
 
 
 {% block content %}
+<form method="post" class="align-center">
 <div class="form-group">
     <input type="text" placeholder="E-mail" class="form-control"><a>Введите вашу электронную почту</a>
 </div>
 <div class="form-group">
-    <input type="password" placeholder="Пароль" class="form-control"><a>write Password</a>
+    <input type="password" placeholder="Пароль" class="form-control"><a>Пароль</a>
 </div>
-
+<div class="form-group">
+    <input  type="text" placeholder="Nike name" class="form-control"><a>Введите ваш nick name</a>
+</div>
+     <button type="submit" class="btn btn-success">Зарегистрироваться</button>
+</form>
 {% endblock %}
